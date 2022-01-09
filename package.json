@@ -1,0 +1,36 @@
+{
+    "name": "holygrailcss",
+    "version": "1.7.70",
+    "description": "Css and Scss framework webmaker",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-sass": "node-sass --output-style expanded --source-map true scss/style.scss dist/style.css  &&  node-sass --output-style expanded --source-map true doc/guide.scss dist/guide.css   ",
+        "start": "npm run build-sass -- --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/holygrailcss/holygrail.git"
+    },
+    "keywords": [
+        "holygrail",
+        "css",
+        "sass"
+    ],
+    "author": "manuel ruiz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/holygrailcss/holygrail/issues"
+    },
+    "homepage": "https://github.com/holygrailcss/holygrail#readme",
+    "devDependencies": {
+        "autoprefixer": "^9.8.6",
+        "clean-css-cli": "^4.3.0",
+        "node-sass": "^4.14.1",
+        "postcss-cli": "^7.1.2",
+        "rimraf": "^3.0.2"
+    }
+}
