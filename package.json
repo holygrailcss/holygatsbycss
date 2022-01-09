@@ -1,7 +1,7 @@
 {
-    "name": "holygrailcss",
-    "version": "1.7.70",
-    "description": "Css and Scss framework webmaker",
+    "name": "holygatsbycss",
+    "version": "0.0.2",
+    "description": "Css and Scss framework webmaker fot gatsby",
     "main": "index.js",
     "directories": {
         "doc": "docs"
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/holygrailcss/holygrail.git"
+        "url": "git+https://github.com/holygrailcss/holygatsbycss.git"
     },
     "keywords": [
         "holygrail",
@@ -23,13 +23,14 @@
     "author": "manuel ruiz",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/holygrailcss/holygrail/issues"
+        "url": "https://github.com/holygrailcss/holygatsbycss/issues"
     },
-    "homepage": "https://github.com/holygrailcss/holygrail#readme",
+    "homepage": "https://github.com/holygrailcss/holygatsbycss#readme",
     "devDependencies": {
         "autoprefixer": "^9.8.6",
         "clean-css-cli": "^4.3.0",
-        "node-sass": "^4.14.1",
+        "node-sass": "^7.0.1",
+        "sass": "^1.47.0",
         "postcss-cli": "^7.1.2",
         "rimraf": "^3.0.2"
     }
