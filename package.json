@@ -1,6 +1,6 @@
 {
     "name": "holygatsbycss",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Css and Scss framework webmaker fot gatsby",
     "main": "index.js",
     "directories": {

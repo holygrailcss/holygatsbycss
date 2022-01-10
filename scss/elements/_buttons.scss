@@ -133,7 +133,7 @@ $btn-text-full: 14px;
     margin-right: $padding-global;
     white-space: nowrap;
     cursor: pointer;
-    padding: $padding-btn / 2;
+    padding: $padding-btn * 0.5;
 
     &:hover {
         text-decoration: none;

@@ -12,7 +12,7 @@ $tooltipdist: 18px;
   z-index:10;
   
   &::after {
-    top: -$tooltipArrow/2 - 1;
+    top: -$tooltipArrow*0.5 - 1;
     right: $tooltipdist;
     content: "";
     position: absolute;
